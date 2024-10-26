@@ -1,11 +1,54 @@
 .catalog {
-
+   display: grid;
+   grid-template-columns: 1fr 4fr;
+   gap: 1rem;
+   align-items: start;
+   height: 100%;
 }
 
+
+/* Catalog options */
 .catalog-options{
-
+   border: 1px solid var(--darken-green);
+   padding: 1rem;
 }
+
+.catalog-options h3{
+   text-align: center;
+}
+
+.catalog-options ul{
+   margin-top: 0.5rem;
+   display: flex;
+   flex-direction: column;
+   gap: 0.5rem;
+}
+
+.catalog-options ul li{
+   padding: 0.15rem 0.75rem;
+   transition: all 0.15s ease;
+   font-size: 1.25rem;
+   cursor: pointer;
+   border: 1px solid var(--darken-green);
+}
+
+.catalog-options ul li:hover {
+   border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Catalog list */
 
 .catalog-list {
-   
+   height: 100%;
+   border: 1px solid #000;
 }

@@ -27,6 +27,7 @@ header ul li {
    transition: all 0.15s ease;
    font-size: 1.25rem;
    background: var(--highlighted-green);
+   cursor: pointer;
 }
 
 header ul li:hover {
